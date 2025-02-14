@@ -1,0 +1,42 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript", "typescript"],
+
+  // ---- 🎨 Coloring like Visual Studio (Dark Mode) ----
+  "editor.tokenColorCustomizations": {
+    "comments": "#6A9955", // Green comments (like VS Dark Mode)
+    "variables": "#9CDCFE", // Light blue variables
+    "functions": "#DCDCAA", // Yellowish function names
+    "keywords": "#569CD6", // Blue keywords (like VS Dark)
+    "strings": "#CE9178", // Light red strings
+    "numbers": "#B5CEA8" // Greenish numbers
+  },
+
+  // ---- 🔍 Enable IntelliSense, CodeLens & Hints ----
+  "editor.parameterHints.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.enabled": true,
+
+  // ---- 🎯 Bracket Pair Coloring & Guides ----
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.indentation": true,
+
+  // ---- 🔥 Error & Warning Styling ----
+  "editor.errorSquiggles": "underline",
+  "editor.lightbulb.enabled": true,
+  "editor.occurrencesHighlight": true,
+
+  // ---- 🚀 Smooth Scrolling ----
+  "editor.smoothScrolling": true,
+
+  // ---- 🛠️ Font & Terminal like Visual Studio ----
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace"
+}
